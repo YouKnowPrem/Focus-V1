@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Download My First App</title>
+  <title>Focus Time - My First Android App</title>
 
-  <!-- Mobile Optimization -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta name="theme-color" content="#0f2027">
 
   <link rel="stylesheet" href="style.css">
@@ -14,50 +13,84 @@
 
 <body>
 
-  <div class="bg-blur"></div>
+<div class="bg-blur"></div>
 
-  <main class="wrapper">
+<main class="wrapper">
 
-    <!-- Main App Card -->
-    <section class="glass-card main-card">
+  <!-- MAIN CARD -->
+  <section class="glass-card">
 
-      <h1>My First Android App 🚀</h1>
-      <p class="tagline">Simple • Fast • Built with Passion</p>
+    <h1>Focus Time 🚀</h1>
+    <p class="tagline">Focus Better • Track Progress • Stay Consistent</p>
 
-      <a href="https://github.com/YouKnowPrem/Focus-V1/releases/download/v1.01/Focus.Time1.apk"
-         class="download-btn">
-         Download APK
-      </a>
+    <a href="https://github.com/YouKnowPrem/Focus-V1/releases/download/v1.01/Focus.Time1.apk"
+       class="download-btn">
+       Download APK
+    </a>
 
-      <p class="version">Version 1.0.1 • Android 8+</p>
+    <p class="version">Version 1.01 • Android 8+</p>
 
-      <div class="install-note">
-        ⚠️ After download, enable<br>
-        <strong>“Install from Unknown Sources”</strong><br>
-        in your Android settings.
-      </div>
+  </section>
 
-    </section>
+  <!-- ABOUT SECTION -->
+  <section class="glass-card">
+    <h2>📌 What is Focus Time?</h2>
+    <p>
+      Focus Time is a productivity-based Android application designed to help users
+      stay focused, track sessions, and analyze their productivity trends over time.
+      It works completely offline using a local database for secure and fast data handling.
+    </p>
+  </section>
 
-    <!-- Feedback Message -->
-    <section class="glass-card message-card">
-      <h2>💬 A Small Message</h2>
-      <p>
-        This is the very first app I’ve built and it is currently in its initial stage.
-        I would truly love to hear your feedback, suggestions, and bug reports.
-        Any improvements and fixes will be included in Version 2.
-        Thank you for supporting my journey 🔥
-        And it is only available for Andriod, Not for ios😅(for now)
-      </p>
-    </section>
+  <!-- FEATURES SECTION -->
+  <section class="glass-card">
+    <h2>✨ Key Features</h2>
 
-    <!-- Glass Signature -->
-    <footer class="glass-signature">
-      Crafted with 💖 <span>Prem Se</span>
-    </footer>
+    <ul class="features">
+      <li>✔ Offline local database (No internet required)</li>
+      <li>✔ Productivity analysis & session tracking</li>
+      <li>✔ Clean and smooth Flutter UI</li>
+      <li>✔ Lightweight & optimized performance</li>
+      <li>✔ Three focus modes (Currently under testing)</li>
+      <li>✔ Designed to be stable and crash-free*</li>
+    </ul>
 
-  </main>
+    <p class="small-note">
+      *Tested personally for stability. If you experience any crashes or bugs,
+      please report them so they can be fixed in Version 2.
+    </p>
+  </section>
 
-  <script src="script.js"></script>
+  <!-- MESSAGE SECTION -->
+  <section class="glass-card">
+    <h2>💬 A Small Message</h2>
+    <p>
+      This is the very first app I’ve built and it is currently in its early stage.
+      I would truly appreciate your feedback, suggestions, and bug reports.
+      All improvements and refinements will be included in Version 2.
+      Thank you for supporting my journey ❤️
+    </p>
+  </section>
+
+  <!-- INSTALL NOTE -->
+  <section class="glass-card">
+    <h2>⚠ Installation Guide</h2>
+    <p>
+      After downloading the APK:
+      <br><br>
+      Go to Settings → Security → Enable <strong>Install from Unknown Sources</strong>
+      <br><br>
+      Then open the downloaded file to install.
+    </p>
+  </section>
+
+  <!-- SIGNATURE -->
+  <footer class="glass-signature">
+    Crafted with passion using Flutter by <span>Prem Singh</span>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
