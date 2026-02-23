@@ -114,3 +114,17 @@ h1 {
   font-weight: 600;
   letter-spacing: 1px;
 }
+
+.features {
+  list-style: none;
+  margin-top: 15px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.small-note {
+  font-size: 12px;
+  margin-top: 12px;
+  opacity: 0.7;
+}
