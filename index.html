@@ -1,116 +1,62 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Download My First App</title>
 
-body {
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  color: white;
-}
+  <!-- Mobile Optimization -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0f2027">
 
-.bg-blur {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(60px);
-  z-index: 0;
-}
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
 
-.wrapper {
-  width: 100%;
-  max-width: 420px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  z-index: 1;
-}
+<body>
 
-.glass-card {
-  background: rgba(255,255,255,0.08);
-  border-radius: 22px;
-  padding: 28px 22px;
-  backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.18);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
-  text-align: center;
-  transition: 0.3s ease;
-}
+  <div class="bg-blur"></div>
 
-.glass-card:hover {
-  transform: translateY(-4px);
-}
+  <main class="wrapper">
 
-h1 {
-  font-size: 24px;
-  font-weight: 700;
-}
+    <!-- Main App Card -->
+    <section class="glass-card main-card">
 
-.tagline {
-  margin: 10px 0 20px;
-  font-weight: 300;
-  opacity: 0.85;
-}
+      <h1>My First Android App 🚀</h1>
+      <p class="tagline">Simple • Fast • Built with Passion</p>
 
-.download-btn {
-  display: block;
-  width: 100%;
-  padding: 16px;
-  border-radius: 50px;
-  background: rgba(255,255,255,0.2);
-  border: 1px solid rgba(255,255,255,0.3);
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 16px;
-  color: white;
-  transition: 0.3s ease;
-}
+      <a href="PASTE_YOUR_GITHUB_RELEASE_APK_LINK_HERE"
+         class="download-btn">
+         Download APK
+      </a>
 
-.download-btn:active {
-  transform: scale(0.96);
-}
+      <p class="version">Version 1.0.0 • Android 8+</p>
 
-.version {
-  margin-top: 14px;
-  font-size: 13px;
-  opacity: 0.8;
-}
+      <div class="install-note">
+        ⚠️ After download, enable<br>
+        <strong>“Install from Unknown Sources”</strong><br>
+        in your Android settings.
+      </div>
 
-.install-note {
-  margin-top: 15px;
-  font-size: 12px;
-  opacity: 0.75;
-}
+    </section>
 
-.message-card h2 {
-  margin-bottom: 12px;
-  font-size: 18px;
-}
+    <!-- Feedback Message -->
+    <section class="glass-card message-card">
+      <h2>💬 A Small Message</h2>
+      <p>
+        This is the very first app I’ve built and it is currently in its initial stage.
+        I would truly love to hear your feedback, suggestions, and bug reports.
+        Any improvements and fixes will be included in Version 2.
+        Thank you for supporting my journey ❤️
+      </p>
+    </section>
 
-.message-card p {
-  font-size: 14px;
-  line-height: 1.6;
-  opacity: 0.9;
-}
+    <!-- Glass Signature -->
+    <footer class="glass-signature">
+      Crafted with dedication by <span>Prem Singh</span>
+    </footer>
 
-.glass-signature {
-  padding: 14px;
-  text-align: center;
-  font-size: 13px;
-  border-radius: 18px;
-  background: rgba(255,255,255,0.07);
-  backdrop-filter: blur(15px);
-  border: 1px solid rgba(255,255,255,0.2);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-}
+  </main>
 
-.glass-signature span {
-  font-weight: 600;
-  letter-spacing: 1px;
-}
+  <script src="script.js"></script>
+</body>
+</html>
